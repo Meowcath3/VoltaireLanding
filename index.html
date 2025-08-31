@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voltaire - Level Up Your Conversations</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <!-- Loading Screen (aka "The Boring Wait Screen") -->
+    <div class="loading-screen" id="loadingScreenOfDoom">
+        <div class="loading-text">INITIALIZING VOLTAIRE</div>
+        <div class="progress-bar">
+            <div class="progress-fill" id="progressBarOfAwesomeness"></div>
+        </div>
+    </div>
+
+    <!-- Laser Light Show Container -->
+    <div class="laser-overlay" id="laserLightShow"></div>
+
+    <!-- Top Bar (The Cool Kids Table) -->
+    <div class="top-bar" id="topBarOfPower">
+        <div class="top-bar-content">
+            <div class="power-indicator">
+                <div class="power-bar" id="powerBarOfMightyMight"></div>
+            </div>
+            <div class="status-text" id="statusTextOfGlory">SYSTEM ONLINE</div>
+        </div>
+        <div class="top-bar-content">
+            <div class="status-text" id="powerLevelOfEpicness">POWER LEVEL: 9000+</div>
+        </div>
+    </div>
+
+    <!-- Main Content (The Meat and Potatoes) -->
+    <div class="container" id="mainContainerOfWonders">
+        <h1 class="main-title" id="mainTitleOfDestiny">VOLTAIRE</h1>
+        
+        <div class="feature-card wiggling-card" data-animation="slideIn">
+            <h2>⚡ SUPERCHARGE YOUR CONVERSATIONS</h2>
+            <p>Voltaire is the ultimate AI-powered chat platform that transforms ordinary conversations into extraordinary experiences. Harness the power of advanced AI to communicate like never before.</p>
+            <button class="power-button dancing-button" data-action="activate">ACTIVATE POWER MODE</button>
+        </div>
+
+        <div class="features-grid" id="featuresGridOfCoolness">
+            <div class="feature-card bouncing-card" data-animation="slideIn" data-delay="0.2">
+                <h3>🎮 NINTENDO-GRADE PERFORMANCE</h3>
+                <p>Experience lightning-fast responses with our turbocharged AI engine. Every message is processed with the precision and speed of a classic gaming console.</p>
+            </div>
+
+            <div class="feature-card spinning-card" data-animation="slideIn" data-delay="0.4">
+                <h3>⚡ LASER-POWERED AI</h3>
+                <p>Our AI doesn't just chat - it electrifies conversations with intelligent responses that adapt to your communication style and supercharge your productivity.</p>
+            </div>
+
+            <div class="feature-card wobbling-card" data-animation="slideIn" data-delay="0.6">
+                <h3>🚀 LEVEL UP YOUR COMMUNICATION</h3>
+                <p>From casual chats to professional discussions, Voltaire gives you the superpowers you need to communicate more effectively than ever before.</p>
+            </div>
+        </div>
+
+        <div class="feature-card mega-wiggle-card" data-animation="slideIn" data-delay="0.8">
+            <h2>🌟 UNLOCK YOUR COMMUNICATION SUPERPOWERS</h2>
+            <p>Ready to transform how you chat? Join thousands of users who have already discovered the electrifying power of Voltaire. Your conversations will never be the same.</p>
+            <button class="power-button super-dance-button" data-action="start">START YOUR JOURNEY</button>
+            <button class="power-button mega-bounce-button" data-action="learn">LEARN MORE</button>
+        </div>
+    </div>
+
+    <!-- Particle Container (The Magic Dust Box) -->
+    <div id="particleContainerOfMagic"></div>
+
+    <!-- Scripts (The Brain Juice) -->
+    <script src="scripts/animations.js"></script>
+    <script src="scripts/effects.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
